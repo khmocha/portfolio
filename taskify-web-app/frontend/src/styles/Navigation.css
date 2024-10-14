@@ -1,0 +1,47 @@
+#Navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: auto;
+    width: 100%;
+
+    padding-bottom: 17px;
+    margin-top: 17px;
+
+    border-bottom: 1px solid rgba(60, 60, 60, 0.5);
+}
+
+#Navigation > :first-child {
+    margin-bottom: 5px;
+}
+
+#Navigation > :first-child .Button {
+    font-size: 1.1rem;
+}
+
+#Navigation > :first-child .FlexStartRow {
+    gap: 5px;
+
+    font-size: 1.15rem;
+}
+
+#Navigation > :not(:first-child) {
+    transition: background-color 0.3s ease;
+}
+
+#Navigation > :not(:first-child):hover {
+    background-color: rgb(32,33,37);
+}
+
+#Navigation > :not(:first-child) .FlexStartRow {
+    gap: 8px;
+
+    margin-left: 22px;
+
+    font-size: 0.7rem;
+}
+
+#Navigation > :not(:first-child) .FlexEndRow {
+    margin-left: 22px;
+}

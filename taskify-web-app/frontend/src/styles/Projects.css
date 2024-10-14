@@ -1,0 +1,14 @@
+#ProjectsPage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background: rgb(22,23,25);
+}

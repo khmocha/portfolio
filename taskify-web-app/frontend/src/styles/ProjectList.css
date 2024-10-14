@@ -1,0 +1,37 @@
+#ProjectList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: auto;
+    width: 100%;
+
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+    border-bottom: 1px solid rgba(60, 60, 60, 0.5);
+}
+
+#ProjectList #ProjectForm {
+    height: 100px;
+    width: 100%;
+
+    background: blue;
+}
+
+#ProjectList > * .FlexStartRow {
+    gap: 8px;
+
+    margin-left: 22px;
+
+    font-size: 0.7rem;
+}
+
+#ProjectList > :nth-child(2) .SearchBarContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ProjectList > :nth-child(2) .SearchBarContainer .FlexEndRow {
+    margin-right: 0;
+}

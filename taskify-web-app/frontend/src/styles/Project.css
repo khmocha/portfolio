@@ -1,0 +1,11 @@
+#Project {
+    flex-grow: 1;
+
+    height: 100%;
+
+    background: rgb(32,33,37);
+
+    border: solid 1px rgba(60, 60, 60, 0.5);
+
+    border-top-left-radius: 20px;
+}

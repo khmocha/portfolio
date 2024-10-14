@@ -1,0 +1,124 @@
+#NavBar {
+    background-color: white;
+    height: 75px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}
+
+#Logo {
+    height: 60px;
+    width: 60px;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    margin-left: 10px;
+}
+
+#LeftPages {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: max-content;
+
+    position: absolute;
+    top: 35%;
+    left: 90px;
+    transform: translateY(-50%);
+}
+
+#LeftPages * {
+    font-size: 16px;
+    font-family: Aladin;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    color: black;
+}
+
+#RightPages {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: max-content;
+
+    position: absolute;
+    top: 35%;
+    left: 1280px;
+    transform: translate(-100%, -50%);
+}
+
+#RightPages * {
+    color: black;
+
+    font-size: 16px;
+    font-family: Aladin;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#RightPages #CreateTasks {
+    background-color: black;
+    
+    color: white;
+
+    font-size: 20px;
+
+    position: relative;
+    
+    padding: 5px;
+}
+
+.GreySquare {
+    background-color: grey;
+
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-2px, 2px);
+
+    z-index: -1;
+}
+
+#Strip {
+    background-color: black;
+    height: 2.5px;
+    width: 1050px;
+
+    position: absolute;
+    top: 42.5px;
+    left: 90px;
+}
+
+#Underline {
+    background-color: black;
+
+    height: 1.5px;
+    width: 100px;
+
+    position: absolute;
+    top: 45%;
+    left: -100px;
+
+    transition: opacity 0.25s ease, left 0.35s ease, width 0.25s ease;
+}

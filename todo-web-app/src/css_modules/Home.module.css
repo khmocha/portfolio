@@ -1,0 +1,133 @@
+#VerticalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 2000px;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#IntroductionContainer {
+    overflow-y: hidden;
+
+    background-color: black;
+
+    height: 800px;
+    width: 100%;
+
+    position: absolute;
+
+    z-index: -1;
+}
+
+#IntroductionContainer * {
+    color: white;
+
+    font-family: Aladin;
+
+    position: absolute;
+}
+
+#IntroductionContainer #Circle {
+    background-color: white;
+
+    height: 85%;
+    width: 60%;
+
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    z-index: -1;
+}
+
+#IntroductionContainer #IntroductionTitle {
+    font-size: 75px;
+
+    height: min-content;
+    width: max-content;
+
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#IntroductionContainer #IntroductionContext {
+    text-align: center;
+
+    font-size: 25px;
+
+    opacity: 0.8;
+
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#GetStartedFree {
+    display: auto;
+
+    background-color: black;
+    
+    color: black;
+
+    font-size: 25px;
+
+    height: 50px;
+    width: max-content;
+
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: none;
+}
+
+#IntroductionContainer .Images {
+    height: 450px;
+    width: 400px;
+}
+
+#IntroductionContainer #Notes1 {
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#IntroductionContainer #Notes2 {
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotate(-40deg);
+
+    z-index: -1;
+}
+
+#IntroductionContainer #Notes3 {
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%) rotate(40deg);
+
+    z-index: -1;
+}
+
+.GreySquare {
+    background-color: grey;
+
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(2px, -2px);
+
+    z-index: -1;
+}
